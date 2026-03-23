@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+/* Estilos para o site */
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: #f0f0f0;
+}
+
+h1 {
+    color: #000000;
+}
+
+h3 {
+    color: #000000;
+    margin-top: 20px;
+}
+
+p {
+    color: #000000;
+    line-height: 1.6;
+}
+
+ul,
+ol {
+    margin-left: 20px;
+    color: #000000;
+}
+
+img {
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+video {
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+div {   
+    display: flex;
+    gap: 20px;
+    align-items: flex-start;
+}
+
+.column {
+    flex: 1 1 0;
+    padding: 8px;
+    border: 1px solid rgba(0,0,0,0.06);
+    background: #ffffff;
+    border-radius: 6px;
+}
+
+/* Responsivo: empilha em telas pequenas */
+@media (max-width: 700px) {
+    .columns {
+        flex-direction: column;
+    }
+}
